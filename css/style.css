@@ -3,7 +3,7 @@ body {
 }
 /* Navbar */
 .navbar img.logo {
-  width: 5.9375rem;
+  width: 5rem;
 }
 /* End Navbar */
 /* Header */
@@ -26,7 +26,7 @@ header button.btn.btn-warning:hover {
 header .headerText {
   opacity: 0;
   transition: 1s;
-  transform: translate(-110px, 0);
+  transform: translate(-50px, 0);
 }
 header .headerText.munculText {
   opacity: 1;
@@ -35,7 +35,7 @@ header .headerText.munculText {
 header .headerImage {
   opacity: 0;
   transition: 1s;
-  transform: translate(115px, 0);
+  transform: translate(50px, 0);
 }
 header .headerImage.munculImage {
   opacity: 1;
@@ -45,28 +45,28 @@ header .headerImage.munculImage {
 /* End Header */
 /* features start */
 .features .textFeatures {
-  opacity: 0;
-  transform: translate(0, 100px);
-  transition: 1s;
-}
-.features .textFeatures.munculTextFeatures {
   opacity: 1;
   transform: translate(0, 0);
+  /* transition: 1s; */
 }
+/* .features .textFeatures.munculTextFeatures {
+  opacity: 1;
+  transform: translate(0, 0);
+} */
 .features .kotak {
   width: 340px;
   height: 355px;
   background-color: rgb(238, 238, 238, 0.5);
   border: 2px solid rgba(24, 24, 24, 0.1);
   border-radius: 20px;
-  transition: 1s;
-  transform: translate(0, 100px);
-  opacity: 0;
-}
-.features .kotak.munculFeatures {
-  transform: translate(0, 0);
+  /* transition: 1s; */
+  transform: translate(0, 0px);
   opacity: 1;
 }
+/* .features .kotak.munculFeatures {
+  transform: translate(0, 0);
+  opacity: 1;
+} */
 
 .features .kotak:hover {
   width: 340px;
@@ -89,14 +89,14 @@ body .container .download {
   background-color: #ffd84c;
   border-radius: 20px;
   margin-top: 50px;
-  transform: translate(0, 100px);
-  opacity: 0;
-  transition: 1s;
+  transform: translate(0, 0);
+  opacity: 1;
+  /* transition: 1s; */
 }
-body .container .download.munculDownload {
+/* body .container .download.munculDownload {
   opacity: 1;
   transform: translate(0, 0);
-}
+} */
 
 body .container .download img {
   width: 200px;
@@ -107,23 +107,23 @@ body .container .download h4 {
 /* End Download */
 /* Cara Kerja */
 .caraKerjaText {
-  opacity: 0;
-  transform: translate(0, 100px);
-  transition: 1s;
+  opacity: 1;
+  transform: translate(0, 0);
+  /* transition: 1s; */
 }
-.caraKerjaText.munculCaraKerjaText {
+/* .caraKerjaText.munculCaraKerjaText {
   transform: translate(0, 0);
   opacity: 1;
-}
+} */
 .caraKerjaContent {
-  transform: translate(0, 200px);
-  transition: 1s;
-  opacity: 0;
-}
-.caraKerjaContent.munculCaraKerjaContent {
   transform: translate(0, 0);
+  /* transition: 1s; */
   opacity: 1;
 }
+/* .caraKerjaContent.munculCaraKerjaContent {
+  transform: translate(0, 0);
+  opacity: 1;
+} */
 /* End Cara Kerja */
 /* Gabung */
 .container .gabung {
@@ -132,14 +132,14 @@ body .container .download h4 {
   border-radius: 20px;
   margin-top: 50px;
   margin-bottom: 50px;
-  opacity: 0;
-  transition: 1s;
-  transform: translate(0, 50px);
+  opacity: 1;
+  /* transition: 1s; */
+  transform: translate(0, 0);
 }
-.container .gabung.munculGabung {
+/* .container .gabung.munculGabung {
   transform: translate(0, 0);
   opacity: 1;
-}
+} */
 .container .gabung button.btn.btn-warning {
   padding: 0.625rem;
   border-radius: 0.625rem;

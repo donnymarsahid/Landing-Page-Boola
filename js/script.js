@@ -1,32 +1,32 @@
 // Parralax
 
-$(window).scroll(function () {
-  let wScroll = $(this).scrollTop();
+// $(window).scroll(function () {
+//   let wScroll = $(this).scrollTop();
 
-  // textFeatures
-  if (wScroll > 292) {
-    $('.features .textFeatures').addClass('munculTextFeatures');
-  }
-  // Features
-  if (wScroll > 297) {
-    $('.features .kotak').addClass('munculFeatures');
-  }
-  // Download
-  if (wScroll > $('.container .download').offset().top - 620) {
-    $('.container .download').addClass('munculDownload');
-  }
-  // CaraKerja
-  if (wScroll > $('.caraKerjaText').offset().top - 620) {
-    $('.caraKerjaText').addClass('munculCaraKerjaText');
-  }
-  if (wScroll > $('.caraKerjaContent').offset().top - 970) {
-    $('.caraKerjaContent').addClass('munculCaraKerjaContent');
-  }
-  // gabung
-  if (wScroll > $('.gabung').offset().top - 1700) {
-    $('.gabung').addClass('munculGabung');
-  }
-});
+//   // textFeatures
+//   if (wScroll > 292) {
+//     $('.features .textFeatures').addClass('munculTextFeatures');
+//   }
+//   // Features
+//   if (wScroll > 297) {
+//     $('.features .kotak').addClass('munculFeatures');
+//   }
+//   // Download
+//   if (wScroll > $('.container .download').offset().top - 620) {
+//     $('.container .download').addClass('munculDownload');
+//   }
+//   // CaraKerja
+//   if (wScroll > $('.caraKerjaText').offset().top - 620) {
+//     $('.caraKerjaText').addClass('munculCaraKerjaText');
+//   }
+//   if (wScroll > $('.caraKerjaContent').offset().top - 970) {
+//     $('.caraKerjaContent').addClass('munculCaraKerjaContent');
+//   }
+//   // gabung
+//   if (wScroll > $('.gabung').offset().top - 1700) {
+//     $('.gabung').addClass('munculGabung');
+//   }
+// });
 
 // Header {
 $('header .headerText').addClass('munculText');
