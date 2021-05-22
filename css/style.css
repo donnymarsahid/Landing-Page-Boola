@@ -5,6 +5,13 @@ body {
 .navbar img.logo {
   width: 5rem;
 }
+.iconMenu {
+  border: none;
+  transition: 0.2s;
+}
+.flipJos {
+  transform: rotate(90deg);
+}
 /* End Navbar */
 /* Header */
 header .container {
@@ -22,24 +29,6 @@ header button.btn.btn-warning {
 }
 header button.btn.btn-warning:hover {
   box-shadow: 0 5px 5px 2px rgb(0, 0, 0, 0.2);
-}
-header .headerText {
-  opacity: 0;
-  transition: 1s;
-  transform: translate(-50px, 0);
-}
-header .headerText.munculText {
-  opacity: 1;
-  transform: translate(0, 0);
-}
-header .headerImage {
-  opacity: 0;
-  transition: 1s;
-  transform: translate(50px, 0);
-}
-header .headerImage.munculImage {
-  opacity: 1;
-  transform: translate(0, 0);
 }
 
 /* End Header */
@@ -270,10 +259,42 @@ footer .linkFooter a:hover {
     width: 65%;
     transition: width 0.4s;
   }
+  header .headerText {
+    opacity: 0;
+    transition: 1s;
+    transform: translate(-50px, 0);
+  }
+  header .headerText.munculText {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  header .headerImage {
+    opacity: 0;
+    transition: 1s;
+    transform: translate(50px, 0);
+  }
+  header .headerImage.munculImage {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
+
+/* Tablet dan Mobile  */
 @media (max-width: 991px) {
   header h1.heading {
     font-size: 26.5px;
     font-weight: bolder;
+  }
+}
+/* Mobile */
+@media (max-width: 576px) {
+  .jumbotronBoola {
+    transform: translate(0, 50px);
+    transition: 1s;
+    opacity: 0;
+  }
+  .jumbotronBoola.munculJumbotron {
+    transform: translate(0, 0);
+    opacity: 1;
   }
 }

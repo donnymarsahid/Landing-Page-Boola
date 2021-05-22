@@ -1,3 +1,12 @@
+// Navbar
+$(document).ready(function () {
+  $('.iconMenu').on('click', function () {
+    $('.iconMenu').toggleClass('flipJos');
+    $('.iconMenu').toggleClass('fa-bars');
+    $('.iconMenu').toggleClass('fa-times');
+  });
+});
+
 // Parralax
 
 // $(window).scroll(function () {
@@ -31,6 +40,7 @@
 // Header {
 $('header .headerText').addClass('munculText');
 $('header .headerImage').addClass('munculImage');
+$('.jumbotronBoola').addClass('munculJumbotron');
 
 // PageScroll
 $('.page-scroll').on('click', function (e) {
