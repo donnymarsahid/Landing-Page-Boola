@@ -12,6 +12,9 @@ body {
 .flipJos {
   transform: rotate(90deg);
 }
+.navbar-nav {
+  text-align: center;
+}
 /* End Navbar */
 /* Header */
 header .container {
