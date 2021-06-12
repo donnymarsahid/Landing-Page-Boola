@@ -1,8 +1,18 @@
 /* Desktop */
 @media (min-width: 992px) {
+  .navbar-nav {
+    width: 600px !important;
+  }
+  .navbar a.nav-link {
+    margin-left: 40px;
+  }
+  .headerImage img {
+    width: 100%;
+  }
   .caraKerja .container .gambar {
     width: 550px;
     height: 400px;
+    margin-top: -50px;
   }
   .navbar-nav {
     text-transform: uppercase;
@@ -25,7 +35,7 @@
     background: #ffd84c;
     transition: width 0.4s;
   }
-  .nav-link:hover::after {
+  .nav-link.borderz:hover::after {
     width: 65%;
     transition: width 0.4s;
   }

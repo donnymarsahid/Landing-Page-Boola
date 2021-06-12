@@ -1,14 +1,32 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* font */
 body {
   font-family: 'Poppins', sans-serif;
 }
 /* Navbar */
 .navbar img.logo {
-  width: 5.125rem;
+  width: 6.5rem;
 }
+/* 
+.navbar {
+  background-color: #fecf28;
+}
+
+
+
+.navbar a.nav-link {
+  color: white;
+} */
+
 .iconMenu {
   border: none;
   transition: 0.2s;
 }
+a.nav-link {
+  font-weight: 500 !important;
+}
+
 .flipJos {
   transform: rotate(90deg);
 }
